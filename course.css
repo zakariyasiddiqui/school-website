@@ -36,12 +36,12 @@
 #feature {
     /* padding: 8vw 8vw 0 10vw; */
     width: 100%;
-    padding: 40px 50px;
+    padding: 40px 10px;
     text-align: center;
 }
 
 #feature p{
-    color: #440303;
+    color: #044349;
 }
 
 #feature .fea-base {
@@ -56,7 +56,7 @@
 #feature .fea-base .fea-box{
     background-color: rgb(234, 235, 235);
     text-align: start;
-    padding: 25px 45px;
+    padding: 15px 10px;
     border-radius: 4px; 
     transition: all .3s ease-in; 
 }
@@ -90,14 +90,14 @@
 
 
 #course{
-padding: 30px 40px;
+padding: 20px 10px;
 text-align: center;
 margin-top: 30px;
 }
 
 
 #course p{
-    color: blue;
+    color: rgb(8, 83, 81);
 }
 
  #course .course-box{
@@ -114,7 +114,10 @@ margin-top: 30px;
     background-color: rgb(242, 242, 254);
     height: 100%;
     position: relative;
+    
 }
+
+
 
 #course h3{
     color: black;
@@ -132,11 +135,14 @@ margin-top: 30px;
     object-fit: cover;
     object-position: center;
     transition: all .3s ease-in-out;
+    
 
 }
 
 #course .courses:hover img{
     transform: scale(1.03);
+    
+    
 }
 
 
@@ -160,10 +166,15 @@ margin-top: 30px;
     text-align: center;
     border-radius: 50%;
     position: absolute;
-    right: 15px;
-    bottom: 70px;
+     right: 15px; 
+     bottom: 70px; 
 }
- 
+/*  
+.cost{
+  margin-bottom: 0px;
+  margin-right: 20px;
+} 
+   */
 
 
 
@@ -186,7 +197,7 @@ margin-top: 30px;
   }
 
   #feature {
-    padding: 30px 20px;
+    padding: 30px 10px;
   }
 
   #feature .fea-base {
@@ -206,7 +217,7 @@ margin-top: 30px;
   }
 
   #course {
-    padding: 30px 20px;
+    padding: 30px 10px;
   }
 
   #course h1 {
@@ -226,8 +237,8 @@ margin-top: 30px;
     height: 50px;
     font-size: 14px;
     line-height: 50px;
-    bottom: 20px;
-    right: 20px;
+    bottom: 90px;
+    right: 40px;
   }
 
   #course .courses .detail h3 {

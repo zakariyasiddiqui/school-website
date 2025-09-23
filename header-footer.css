@@ -37,7 +37,7 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 10px 40px;
+    padding: 10px 20px;
     align-items: center;
      box-shadow: 2px 2px 10px black;
      background-color: white;
@@ -73,7 +73,7 @@ nav  ul li a {
 }
 
 nav  ul li a:hover {
-    color: yellow;
+    color: rgb(237, 40, 40);
 
 } 
 

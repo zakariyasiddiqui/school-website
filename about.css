@@ -25,11 +25,11 @@
 
 /* //////about design//////// */
 
-
+ 
 .online-course{
     width: 100%;
     height: auto;
-    padding: 50px 40px;
+    padding: 50px 10px;
     display: flex;
     flex-direction: row;
     gap: 20px;
@@ -107,12 +107,14 @@
     font-size: 34px;
     color: #000;
     margin-bottom: 40px;
+    padding: 0px 10px;
 }
 
 .image-heading p{
     font-size: 16px;
     color: #525252;
     margin-bottom: 100px;
+    padding: 0px 10px;
 }
 
 .image-items-box{
@@ -128,7 +130,7 @@
 
 
 
-.imge-item1{
+.imge-item1{ 
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -168,10 +170,11 @@
     color: #525252;
     margin-bottom: 15px;
     margin-top: 20px;
+    padding: 0px 10px;
 }
 
 
-
+ 
 
 /*feture*/
 
@@ -182,14 +185,14 @@
 
 
 #feature {
-    /* padding: 8vw 8vw 0 10vw; */
+    
     width: 100%;
-    padding: 40px 50px;
+    padding: 40px 10px;
     text-align: center;
 }
 
 #feature p{
-    color: #440303;
+    color: #034442;
 }
 
 #feature .fea-base {
@@ -204,7 +207,7 @@
 #feature .fea-base .fea-box{
     background-color: rgb(234, 235, 235);
     text-align: start;
-    padding: 25px 45px;
+    padding: 15px 10px;
     border-radius: 4px; 
     transition: all .3s ease-in; 
 }
@@ -237,12 +240,16 @@
 
 /* trusted by*/
 
+.boxt{
+  padding: 0px 10px;
+}
 
 .trusted{
-    width: 100;
+    width: 100%;
     height: auto;
     margin-bottom:  50px; ;
    background-color: rgba(128, 128, 128, 0.304); 
+  
    
 }
 
@@ -254,6 +261,7 @@
 .trusted p{
     text-align: center;
     margin-top: 10px;
+    padding: 0px 10px;
 }
 
 .trusted .product {
