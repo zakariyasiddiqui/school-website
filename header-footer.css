@@ -115,6 +115,10 @@ footer {
     
  } 
 
+  footer .footer-col a{
+    text-decoration: none;
+  }
+
 
 
   footer .footer-col p{
