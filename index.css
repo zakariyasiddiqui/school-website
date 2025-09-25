@@ -6,14 +6,17 @@
     background-size: cover;     
     background-position: center;
     width: 100%;
-    height: 90vh; 
+    height: 80vh; 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
     /* padding-top: 40px; */
-}
+} 
+
+
+
 
 #home h2{
 color: #fff;
@@ -247,24 +250,37 @@ padding: 50px 10px;
 
 
 
-#registration .reminder .time{
+#registration .time{
     display: flex;
     margin-top: 40px;
-  
+    flex-direction: row;
+  width: 100%;
+  flex-wrap: wrap;
+  margin: 0 auto;
 } 
 
-#registration .reminder .time .date{
+#registration .time .date{
     text-align: center;
     padding: 10px 50px;
     background-color: rgb(255, 255,255, 0.25);
     backdrop-filter: blur(4px);
     box-shadow: 0 8px 32px 0  rgba(31, 38, 135, 0.37);
     border-radius: 5px;
-    margin: 0 5px 10px 5px;
+    /* margin: 0 5px 10px 5px; */
     border: 2px solid rgb(212, 214, 215); 
     font-size: 1.1rem;
     font-weight: 600;
+width: 24%;
+display: flex;
+flex-wrap: wrap;
+margin: 0 auto;
+margin-bottom: 20px;
+color: white;
+justify-content: center;
+}
 
+.time{
+  padding: 0px 100px;
 }
 
 
@@ -279,9 +295,10 @@ padding: 50px 10px;
 
 }
 
+
 #registration .form input {
     margin: 15px 0;
-    padding:15px 10px ;
+    padding:15px 35px ;
     border: 1px solid rgb(31, 40, 241);
     outline: none;
 
@@ -425,6 +442,12 @@ padding: 50px 10px;
     width: 90%;
     font-size: 0.95rem;
   }
+
+  #home {
+    height: 50vh;
+  }
+
+
 } 
 
 
@@ -442,9 +465,14 @@ padding: 50px 10px;
   #registration .reminder  .time {
     flex-direction: column;
     text-align: center;
+  
+    
   }
 
-}
+} 
+
+
+
 
 
 
@@ -494,10 +522,15 @@ padding: 50px 10px;
     width: 100%;
     padding: 20px 10px;
   }
-  #registration .reminder  .time {
-    flex-direction: column;
+  #registration .time {
+    /* flex-direction: column; */
     text-align: center;
+    width: 100%;
     
+  }
+
+  #registration .time .date{
+    width: 40%;
   }
 
   #footer-input{
@@ -515,6 +548,8 @@ padding: 50px 10px;
   #course .course-box{
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   }
+
+
 }
   
 /* Small Mobile (max-width: 480px) */

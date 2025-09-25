@@ -125,7 +125,8 @@ width: 50%;
 .contect-secand .form-btn{
     padding: 12px 14px;
 text-align: start;
-    background-color: rgba(0, 255, 89, 0.908);
+    background-color: rgb(8, 6, 37);
+    color: aliceblue;
     
 } 
 
@@ -159,7 +160,7 @@ text-align: start;
 /* ===== Banner Section ===== */
 .contect-banner {
     width: 100%;
-    height: 70vh;
+    height: 50vh;
     background-image: url("contect bg.jpg"); 
     background-repeat: no-repeat;
     background-size: cover;
@@ -214,7 +215,7 @@ text-align: start;
 .contect-col {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 2px;
 }
 
 .contect-col div {
@@ -266,7 +267,7 @@ text-align: start;
 
 .contect-secand .form-btn {
     padding: 12px 20px;
-    background-color: rgba(0, 255, 89, 0.908);
+    background-color: rgb(7, 3, 28);
     border: none;
     cursor: pointer;
     font-size: 16px;

@@ -51,18 +51,21 @@ nav img{
 
 
 
-
+ 
 nav  ul {
     display: flex;
     justify-content: flex-end;
     align-items: center;
 
-}
+} 
 
-nav  ul li {
+ nav  ul li {
     list-style: none;
-    margin-left: 30px;
-}
+    /* margin-left: 30px; */
+    padding: 0 20px;
+
+    
+} 
 
 nav  ul li a {
     text-decoration: none;
@@ -70,6 +73,9 @@ nav  ul li a {
     font-size: 16px;
     font-weight: 500;
     transition: 0.3s ease;
+     align-items: center;
+    text-align: center; 
+    
 }
 
 nav  ul li a:hover {
@@ -93,7 +99,7 @@ footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding: 40px 50px 0px 50px;
+  padding: 70px 50px 0px 50px;
   background-color: #0e124a;
   align-items: flex-start;
   height: auto;
@@ -102,11 +108,14 @@ footer {
 
  
 
-  footer h3{
+  footer h3 {
     color: aliceblue;
     font-weight: 600; 
      padding-bottom: 20px;
+    
  } 
+
+
 
   footer .footer-col p{
     color:white;
@@ -128,12 +137,24 @@ footer {
 
   } 
 
+  footer li a{
+    text-decoration: none;
+    color:gray ;
+  }
+  
+
+footer li a:hover, 
   footer li:hover{
     color: white;
   }
 
+footer .foot p{
+  color: gray;
+}
 
-
+footer .foot p:hover{
+  color: white;
+}
 
 
 
@@ -196,6 +217,13 @@ footer .zaka p{
     padding: 25px;
     border-top: 1px solid rgba(245, 222, 179, 0.53);
 }
+
+ .footer-prolink{
+  width: 100%;
+  display: flex;
+  justify-content: start !important;
+  align-items: start;
+ }
 
 .pro-link i{
     margin-top: 20px;
@@ -262,7 +290,7 @@ footer  .pro-link i:hover{
 } 
 
 
-
+/* 
 @media (max-width: 870px){
   
   #registration {
@@ -278,7 +306,7 @@ footer  .pro-link i:hover{
     text-align: center;
   }
 
-}
+}  */
 
 
 
@@ -287,6 +315,7 @@ footer  .pro-link i:hover{
 @media (max-width: 768px) {
    nav ul {
     display: none;
+
   }
   nav img {
     width: 100px;
@@ -317,10 +346,10 @@ footer  .pro-link i:hover{
     margin-top: 40px;
     background-color: rgb(0, 234, 255);
 
-  }
+  } 
 
   
-  #registration {
+  /* #registration {
     flex-direction: column;
     text-align: center;
   }
@@ -331,7 +360,7 @@ footer  .pro-link i:hover{
   #registration .reminder  .time {
     flex-direction: column;
     text-align: center;
-  }
+  } */
 
   #footer-input{
     margin-bottom: 20px;
@@ -363,7 +392,7 @@ footer  .pro-link i:hover{
   margin-top: 50px  !important; 
 }
 
-}
+} 
 
 
 
@@ -379,9 +408,10 @@ footer  .pro-link i:hover{
 
 
 /* Mobile (max-width: 768px) */
-@media (max-width: 768px) {
+ @media (max-width: 768px) {
    nav ul {
     display: none;
+    
   }
   nav img {
     width: 100px;
@@ -414,7 +444,7 @@ footer  .pro-link i:hover{
 
   }
 
-  
+/*   
   #registration {
     flex-direction: column;
     text-align: center;
@@ -426,7 +456,7 @@ footer  .pro-link i:hover{
   #registration .reminder  .time {
     flex-direction: column;
     text-align: center;
-  }
+  } */
 
   #footer-input{
     margin-bottom: 20px;
@@ -458,5 +488,7 @@ footer  .pro-link i:hover{
   margin-top: 50px  !important; 
 }
 
-}
 
+
+}
+ 

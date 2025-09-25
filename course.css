@@ -1,6 +1,6 @@
 .course-banner{
     width: 100%;
-    height: 70vh;
+    height: 80vh;
     background-image: url(coursebgi.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -169,15 +169,6 @@ margin-top: 30px;
      right: 15px; 
      bottom: 70px; 
 }
-/*  
-.cost{
-  margin-bottom: 0px;
-  margin-right: 20px;
-} 
-   */
-
-
-
 
 
 
@@ -188,7 +179,7 @@ margin-top: 30px;
 /* Mobile Devices (up to 600px) */
 @media (max-width: 600px) {
   .course-banner {
-    height: 40vh;
+    height: 50vh;
   }
 
   .course-content h1 {

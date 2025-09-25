@@ -1,6 +1,6 @@
 .about-banner{
     width: 100%;
-    height: 70vh;
+    height: 80vh;
     background-image: url(degree\ bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -305,6 +305,11 @@
 
 /* Responsive for tablets and smaller desktops */
 @media (max-width: 992px) {
+
+  .about-banner{
+    height: 50vh;
+  }
+
   .online-course {
     flex-direction: column;
     padding: 30px 20px;
