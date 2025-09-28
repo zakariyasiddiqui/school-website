@@ -117,7 +117,14 @@ footer {
 
   footer .footer-col a{
     text-decoration: none;
+    /* display: flex; */
+    
   }
+
+  
+  .footer-col li i {
+  margin-right: 8px; /* Adjust spacing as needed */
+}
 
 
 
@@ -136,14 +143,14 @@ footer {
     padding: 10px 0;
     font-size: 15px;
     cursor: pointer;
-    color: gray;
+    color: rgb(224, 224, 206);
     transition: 0.3s ease;
 
   } 
 
   footer li a{
     text-decoration: none;
-    color:gray ;
+    color:rgb(211, 213, 198) ;
   }
   
 
@@ -153,7 +160,7 @@ footer li a:hover,
   }
 
 footer .foot p{
-  color: gray;
+  color: rgb(221, 220, 200);
 }
 
 footer .foot p:hover{
@@ -174,9 +181,12 @@ margin-top: 20px;
     background-color: rgb(169, 160, 160);
     border: none;
     outline: none;
-    color: white;
+    color: rgb(236, 228, 230);
   } 
-
+ input::placeholder{
+  color: #fff;
+ }
+ 
 .subscrib{
     margin-top: 20px;
 }
@@ -280,7 +290,7 @@ footer  .pro-link i:hover{
     top: 100px;
     left: 0;
     width: 100%;
-    background: rgba(145, 145, 157, 0.9);
+    background: rgba(153, 205, 50, 0.974);
     padding: 20px 0;
     gap: 15px;
   } 
@@ -348,7 +358,7 @@ footer  .pro-link i:hover{
   }
   footer .subscrib a.yellow{
     margin-top: 40px;
-    background-color: rgb(0, 234, 255);
+    /* background-color: rgb(0, 234, 255); */
 
   } 
 
@@ -444,7 +454,9 @@ footer  .pro-link i:hover{
   }
   footer .subscrib a.yellow{
     margin-top: 40px;
-    background-color: rgb(35, 3, 30);
+    background-color: yellowgreen;
+    color: #0e124a;
+    
 
   }
 

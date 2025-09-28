@@ -80,8 +80,9 @@ background-color: aliceblue;
 #feature {
     /* padding: 8vw 8vw 0 10vw; */
     width: 100%;
-    padding: 40px 10px;
+    padding: 50px 40px;
     text-align: center;
+    margin-top: 10px;
 }
 
 #feature p{
@@ -100,7 +101,7 @@ background-color: aliceblue;
 #feature .fea-base .fea-box{
     background-color: rgb(234, 235, 235);
     text-align: start;
-    padding: 15px 10px;
+    padding: 20px 10px;
     border-radius: 4px; 
     transition: all .3s ease-in; 
 }
@@ -134,9 +135,9 @@ background-color: aliceblue;
 
 
 #course{
-padding: 20px 10px;
+padding: 50px 40px;
 text-align: center;
-margin-top: 30px;
+margin-top: 0px;
 }
 
 
@@ -214,7 +215,7 @@ margin-top: 30px;
 
 
 #registration {
-padding: 50px 10px;
+padding: 50px 40px;
     background-image: linear-gradient(rgba(99,112,168,0.5),rgba(19,91,233,0.5)),
     url("course4.jpg");
     max-width: 100%;
@@ -241,10 +242,16 @@ padding: 50px 10px;
 
 #registration .reminder h1{
     color: #fff;
+     /* margin-left: 70px; */
+    
+
+    
+
 }
 
 #registration .reminder p{
   color:rgba(255, 255, 255, 0.779) ;
+ /* margin-left: 70px; */
 }
 
 
@@ -252,32 +259,36 @@ padding: 50px 10px;
 
 #registration .time{
     display: flex;
-    margin-top: 40px;
+    /* margin-top: 40px; */
     flex-direction: row;
   width: 100%;
   flex-wrap: wrap;
   margin: 0 auto;
+  /* background-color: red; */
+  /* margin-left: 70px; */
+  margin-top: 20px;
 } 
 
 #registration .time .date{
     text-align: center;
-    padding: 10px 50px;
+    padding: 10px 30px;
     background-color: rgb(255, 255,255, 0.25);
     backdrop-filter: blur(4px);
     box-shadow: 0 8px 32px 0  rgba(31, 38, 135, 0.37);
     border-radius: 5px;
-    /* margin: 0 5px 10px 5px; */
-    border: 2px solid rgb(212, 214, 215); 
-    font-size: 1.1rem;
-    font-weight: 600;
-width: 24%;
-display: flex;
-flex-wrap: wrap;
-margin: 0 auto;
-margin-bottom: 20px;
-color: white;
-justify-content: center;
-}
+    margin: 0 5px 10px 5px;
+   border: 2px solid rgb(212, 214, 215);  
+     font-size: 1.1rem; 
+    font-weight: 600; 
+ /* width: 24%;  */
+ /* display: flex;  */
+ /* flex-wrap: wrap;  */
+ /* flex-wrap: wrap;  */
+ /* margin: 0 auto;  */
+ /* margin-bottom: 20px;   */
+ /* color: white;  */
+ /* justify-content: center;  */
+} 
 
 
 #registration .form{
@@ -287,7 +298,7 @@ justify-content: center;
     flex-direction: column;
     padding: 40px;
    box-shadow: 0 8px 32px 0  rgba(31, 38, 135, 0.37);
-
+    /* margin-right: 70px; */
 
 }
 
@@ -345,7 +356,7 @@ justify-content: center;
 
  #experts{
     
-    padding: 40px 10px;
+    padding: 50px 40px;
     text-align: center;
     margin-top: 30px;
     
@@ -393,7 +404,7 @@ justify-content: center;
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} 
 
 /*footer*/
 
@@ -427,7 +438,7 @@ justify-content: center;
     top: 100px;
     left: 0;
     width: 100%;
-    background: rgba(145, 145, 157, 0.9);
+    background: rgba(153, 205, 50, 0.973);
     padding: 20px 0;
     gap: 15px;
   } 
@@ -442,6 +453,41 @@ justify-content: center;
   #home {
     height: 50vh;
   }
+#feature{
+  padding: 20px 10px;
+}
+
+
+#course{
+padding: 20px 10px;
+text-align: center;
+margin-top: 30px;
+}
+
+
+#registration {
+padding: 50px 10px;
+    background-image: linear-gradient(rgba(99,112,168,0.5),rgba(19,91,233,0.5)),
+    url("course4.jpg");
+    max-width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+    
+}
+
+
+ #experts{
+    
+    padding: 40px 10px;
+    text-align: center;
+    margin-top: 30px;
+    
+}
+
 
 
 } 
@@ -457,12 +503,26 @@ justify-content: center;
   #registration .form {
     width: 100%;
     padding: 20px;
+    margin-left: auto;
   }
-  #registration .reminder  .time {
-    flex-direction: column;
-    text-align: center;
+
+  #registration .reminder h1{
+    margin-left: auto;
+  }
+
   
-    
+  #registration .reminder p{
+    margin: auto;
+  }
+
+
+  #registration .reminder  .time {
+    flex-direction: row;
+    text-align: center;
+    padding: 0px 10px;
+    margin-left: 10px;
+  align-items: center;
+    text-align: center;
   }
 
 } 
@@ -527,6 +587,7 @@ justify-content: center;
 
   #registration .time .date{
     width: 40%;
+    margin-left: 10px;
   }
 
   #footer-input{
@@ -534,7 +595,7 @@ justify-content: center;
   }
 
   footer{
-    padding: 30px 10px;
+    /* padding: 30px 10px; */
   }
 
   footer .pro-link{
@@ -573,3 +634,12 @@ justify-content: center;
 
 
 } 
+
+
+
+
+
+
+
+
+

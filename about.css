@@ -29,7 +29,7 @@
 .online-course{
     width: 100%;
     height: auto;
-    padding: 50px 10px;
+    padding: 50px 40px;
     display: flex;
     flex-direction: row;
     gap: 20px;
@@ -114,7 +114,7 @@
     font-size: 16px;
     color: #525252;
     margin-bottom: 100px;
-    padding: 0px 10px;
+    padding: 10px 10px;
 }
 
 .image-items-box{
@@ -170,7 +170,7 @@
     color: #525252;
     margin-bottom: 15px;
     margin-top: 20px;
-    padding: 0px 10px;
+    padding: 0px 40px;
 }
 
 
@@ -187,7 +187,7 @@
 #feature {
     
     width: 100%;
-    padding: 40px 10px;
+    padding: 50px 40px;
     text-align: center;
 }
 
@@ -241,7 +241,7 @@
 /* trusted by*/
 
 .boxt{
-  padding: 0px 10px;
+  padding: 50px 40px;
 }
 
 .trusted{
@@ -349,6 +349,18 @@
   .image-heading p {
     margin-bottom: 40px;
   }
+
+#feature {
+    
+    width: 100%;
+    padding: 40px 10px;
+    text-align: center;
+}
+
+.boxt{
+  padding: 20px 10px;
+}
+
 }
 
 /* Responsive for mobile phones */
@@ -363,6 +375,7 @@
   .image-content-section {
     width: 100%;
     margin-left: 0;
+    padding: 0px 10px;
   }
 
   .image-section {
@@ -406,14 +419,19 @@
   /* Trusted section grid tweak */
   .trusted .product {
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-    padding-left: 2vw;
     margin-top: 30px;
+    
+
+    
+
+
   }
 
   .trusted .product img {
     width: 40px;
     height: 40px;
     margin-bottom: 10px;
+    margin-left: 20px;
   }
 
   /* Feature boxes: stack vertically on small */
@@ -422,7 +440,7 @@
   }
 
   #feature .fea-base .fea-box {
-    padding: 20px 25px;
+    padding: 20px 10px;
   }
 
   

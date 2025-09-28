@@ -1,6 +1,6 @@
-.contect-banner{
+ .contect-banner{
     width: 100%;
-    height: 70vh;
+    height: 80vh;
     background-image: url(contect\ bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -17,7 +17,8 @@
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.329);
-}
+    
+} 
 
 .contect-content h1{
     color: white
@@ -30,12 +31,13 @@
 .location{
     width: 100%;
     margin: auto;
-    padding: 80px 10px;
+    padding: 80px 40px;
 
 }
 
 .location iframe{
     width: 100%;
+
 }
 
  
@@ -46,7 +48,7 @@ flex-direction: row;
 align-items: start;
 justify-content: space-between;
  height: auto;
- padding: 50px 10px;  
+ padding: 50px 40px;  
  
 }
 
@@ -60,7 +62,7 @@ justify-content: space-between;
     margin-bottom: 30px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     flex-direction: column;
     
 }
@@ -81,27 +83,21 @@ justify-content: space-between;
     
 }
 
-.contect-col div p{
-    padding: 0;
+
+
+.contect-col div p {
+    margin: 0;
+    font-size: 16px;
 }
 
-.contect-col div h5{
+
+.contect-col div h5 {
     font-size: 20px;
     margin-bottom: 5px;
-    color:rgba(11, 12, 0, 0.871) ;
-    /* font-weight: 400; */
-}
-
-
-.contect-secand input, .contect-secand textarea{
-    width: 100%;
-    padding: 15px 10px;
-    margin-bottom: 17px;
-    outline: none;
-    border: 2px solid #ccc;
-    
-    
+    color: rgba(11, 12, 0, 0.871);
+    font-weight: 400;
 } 
+
 
 .contect-secand {
     
@@ -112,15 +108,22 @@ width: 50%;
    padding: 0px 10px;
 }
 
-.contect-secand input,
+
+.form-btn-box {
+    width: 100%;
+}
+
+
+  .contect-secand input,
 .contect-secand textarea {
-    width: 50%;
+    width: 100%;
     padding: 15px 10px;
     margin-bottom: 17px;
     outline: none;
     border: 2px solid #ccc;
      box-sizing: border-box; 
-}
+     font-size: 16px;
+}  
 
 .contect-secand .form-btn{
     padding: 12px 14px;
@@ -140,144 +143,20 @@ text-align: start;
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* ===================================
-   CONTACT PAGE CSS (Responsive)
-   =================================== */
-
-/* ===== Banner Section ===== */
-.contect-banner {
-    width: 100%;
-    height: 50vh;
-    background-image: url("contect bg.jpg"); 
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+input::placeholder{
+    color: rgba(19, 17, 17, 0.273);
 }
 
-.contect-content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.4);
-    text-align: center;
-}
 
-.contect-content h1 {
-    color: white;
-    font-size: 3rem;
-}
 
-/* ===== Location Map ===== */
-.location {
-    width: 100%;
-    margin: auto;
-    padding: 80px 0;
-}
 
-.location iframe {
-    width: 100%;
-    height: 450px;
-    border: none;
-}
 
-/* ===== Contact Us Section ===== */
-.contect-us {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start;
-    padding: 50px 40px;
-    gap: 40px;
-    box-sizing: border-box;
-}
 
-/* Left column: Contact info */
-.row {
-    width: 50%;
-}
 
-.contect-col {
-    display: flex;
-    flex-direction: column;
-    gap: 2px;
-}
 
-.contect-col div {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-}
 
-.contect-col div .fa {
-    font-size: 28px;
-    color: rgb(6, 56, 59);
-}
 
-.contect-col div h5 {
-    font-size: 20px;
-    margin-bottom: 5px;
-    color: rgba(11, 12, 0, 0.871);
-    font-weight: 400;
-}
 
-.contect-col div p {
-    margin: 0;
-    font-size: 16px;
-}
-
-/* Right column: Form */
-.contect-secand {
-    width: 50%;
-}
-
-.contect-secand form {
-    width: 100%;
-}
-
-.contect-secand input,
-.contect-secand textarea {
-    width: 100%;
-    padding: 15px;
-    margin-bottom: 17px;
-    border: 2px solid #ccc;
-    outline: none;
-    font-size: 16px;
-    box-sizing: border-box;
-}
-
-.form-btn-box {
-    width: 100%;
-}
-
-.contect-secand .form-btn {
-    padding: 12px 20px;
-    background-color: rgb(7, 3, 28);
-    border: none;
-    cursor: pointer;
-    font-size: 16px;
-    transition: background-color 0.3s ease;
-}
-
-.contect-secand .form-btn:hover {
-    background-color: #555;
-    color: white;
-}
 
 /* ================================
    MEDIA QUERIES FOR RESPONSIVENESS
@@ -306,6 +185,7 @@ text-align: start;
 
     .contect-secand {
         margin-top: 40px;
+        padding: 0px 10px;
     }
 }
 
@@ -316,7 +196,7 @@ text-align: start;
     }
 
     .location {
-        padding: 40px 20px;
+        padding: 40px 10px;
     }
 
     .location iframe {
@@ -336,6 +216,23 @@ text-align: start;
         padding: 14px;
         font-size: 1rem;
     }
+}
+
+@media (max-width: 768px){
+.contect-content h1 { 
+    color: white;
+    font-size: 3rem;
+}
+}
+
+@media (max-width: 768px){
+.location iframe {
+    width: 100%;
+    height: 450px;
+    border: none;
+    padding: 0px 10px;
+
+}
 }
 
 

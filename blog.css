@@ -137,146 +137,23 @@ margin-bottom: 20px;
 
 .comment-form  button{
     margin: 10px 0;
-}
-
-
-
-
-
-
-
-/*footer*/
-
-
-footer {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  padding: 40px 50px 0px 50px;
-  background-color: #0e124a;
-  align-items: flex-start;
-  height: auto;
-
-} 
-
- 
-
-  footer h3{
-    color: aliceblue;
-    font-weight: 600; 
-     padding-bottom: 20px;
- } 
-
-  footer .footer-col p{
-    color:white;
-  }
-
-
-  footer .footer-col{
-    padding-bottom: 40px;
-    height: auto;
-  }
-
-  footer li{
-    list-style: none;
-    padding: 10px 0;
-    font-size: 15px;
-    cursor: pointer;
-    color: gray;
-    transition: 0.3s ease;
-
-  } 
-
-  footer li:hover{
+    padding: 10px 5px;
+    background-color: #0e124a;
     color: white;
-  }
-
-
-
-
-
-
- 
-  footer .subcrib{
-margin-top: 20px;
-  }
-
-
-  footer input{
-    width: 220px;
-    padding: 15px 12px;
-    background-color: rgb(169, 160, 160);
-    border: none;
-    outline: none;
-    color: white;
-  } 
-
-.subscrib{
-    margin-top: 20px;
 }
 
-  footer .subscrib a {
-    text-decoration: none;
-    font-size: 0.9rem;
-    padding: 13px 35px;
-    background-color: white;
-    font-weight: 600;
-
-    
-  }
-
-
-  footer .subscrib a.yellow {
-    color: rgb(221, 221, 225);
-    background: rgb(176, 203, 24); 
-     transition: 0.3s ease; 
-} 
-
-
-footer .subscrib a.yellow:hover {
-    color:rgb(21, 21, 100) ;
-    background: beige;
+.comment-form  button:hover{
+  color: #0e124a;
+  background-color: yellowgreen;
 }
 
 
-footer .zaka{
-    margin-top: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    flex-wrap: wrap;
-}
-
-footer .zaka p{
-    color: wheat;
-    text-align: center;
-    width: 100%;
-    padding: 25px;
-    border-top: 1px solid rgba(245, 222, 179, 0.53);
-}
-
-.pro-link i{
-    margin-top: 20px;
-    background-color: #fff;
-    justify-content: center;
-    align-items: center;
-
- }
 
 
- footer  .pro-link i {
-    background-color: #5f7185;
-    color: #fff;
-}
 
 
-footer  .pro-link i:hover{
-    color: rgb(12, 1, 52);
-   background-color: rgb(164, 220, 22); 
-   border: 1px solid rgb(21,21,100);
-    cursor: pointer;
-}
+
+
 
 
 
@@ -344,6 +221,22 @@ footer  .pro-link i:hover{
     font-size: 14px;
     padding: 15px;
   }
+
+
+.comment-form  button{
+    margin: 10px 0;
+    padding: 10px 5px;
+    background-color: #0e124a;
+    color: white;
+}
+
+.comment-form  button:hover{
+  color: #0e124a;
+  background-color: yellowgreen;
+}
+
+
+
 }
 
 
